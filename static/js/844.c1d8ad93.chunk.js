@@ -1,12 +1,12 @@
-"use strict";(self.webpackChunkreact_team_project=self.webpackChunkreact_team_project||[]).push([[844],{9252:(e,r,o)=>{o.d(r,{A:()=>i});o(5043);const i=o.p+"static/media/logo_money_guard.211e06f6e0b96596c52319d0d5377b8d.svg"},9750:(e,r,o)=>{o.d(r,{mc:()=>d,MG:()=>c,lB:()=>s,WG:()=>p,Po:()=>l});var i=o(3516),t=o(1529),n=o(1833);const a=o.p+"static/media/bg-register-desktop.bcc8fbdd5891f99a5b26.webp",p=(0,t.Ay)(i.l1)`
+"use strict";(self.webpackChunkreact_team_project=self.webpackChunkreact_team_project||[]).push([[844],{9252:(e,r,o)=>{o.d(r,{A:()=>i});o(5043);const i=o.p+"static/media/logo_money_guard.fce5decc9b22ef0ca025e9630273e85c.svg"},9750:(e,r,o)=>{o.d(r,{mc:()=>d,MG:()=>l,lB:()=>s,WG:()=>p,Po:()=>c});var i=o(3516),t=o(1529),n=o(1833);const a=o.p+"static/media/bg-register-desktop.bcc8fbdd5891f99a5b26.webp",p=(0,t.Ay)(i.l1)`
   padding: 30px 0 30px 0;
 `,s=(0,t.Ay)(i.lV)`
   padding: 100px 20px 100px 20px;
   /* background-color: purple; */
-`,l=t.Ay.img`
+`,c=t.Ay.img`
   width: 36px;
   height: 36px;
-`,c=t.Ay.div`
+`,l=t.Ay.div`
   min-width: 100vw;
   min-height: 100vh;
   flex-shrink: 0;
@@ -117,7 +117,7 @@
       1px 9px 15px 0px rgba(0, 0, 0, 0.2), 2px 17px 12px -17px #111,
       0px 4px 60px 0px rgba(0, 0, 0, 0.25);
   }
-`},9917:(e,r,o)=>{o.d(r,{A0:()=>m,BG:()=>w,Hl:()=>u,JK:()=>h,Jo:()=>v,Sv:()=>G,Tu:()=>f,VE:()=>d,aC:()=>g,aZ:()=>y,lx:()=>x,ng:()=>j,ny:()=>b});var i=o(1529),t=o(7196),n=o(6720),a=o(423),p=o(3516),s=o(5863),l=o(5475),c=o(579);const d=(0,i.Ay)(p.lV)`
+`},9917:(e,r,o)=>{o.d(r,{A0:()=>f,BG:()=>w,Hl:()=>u,JK:()=>h,Jo:()=>v,Sv:()=>G,Tu:()=>m,VE:()=>d,aC:()=>g,aZ:()=>y,lx:()=>x,ng:()=>j,ny:()=>b});var i=o(1529),t=o(7196),n=o(6720),a=o(423),p=o(3516),s=o(5863),c=o(5475),l=o(579);const d=(0,i.Ay)(p.lV)`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -172,12 +172,12 @@
   color: white;
   margin-top: 0;
   margin-bottom: 0;
-`,m=i.Ay.div`
+`,f=i.Ay.div`
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-`,f=i.Ay.div`
+`,m=i.Ay.div`
   position: absolute;
   left: 5px;
 `,b=(0,i.Ay)(t.ORf)`
@@ -224,11 +224,11 @@
       color: #3a2f43;
     }
   }
-`,z=(0,i.Ay)(l.k2)`
+`,z=(0,i.Ay)(c.k2)`
   && {
     ${A}
     background-color: #ffffff;
     color: #623f8b;
   }
-`,G=e=>{let{isNavLink:r,customStyles:o,...i}=e;const t=r?z:k;return(0,c.jsx)(t,{...i})}},5204:(e,r,o)=>{o.r(r),o.d(r,{default:()=>h});var i=o(899),t=o(9252),n=o(9917),a=o(9750),p=o(3516),s=o(3003),l=o(5123),c=o(3401),d=o(3775),x=o(579);const g=()=>{const e=(0,s.wA)(),r=(0,s.d4)(d.Vd),o=i.Ik({email:i.Yj().email("Invalid email format").required("Email is required"),password:i.Yj().required("Password is required").min(6,"The password must have min 6 characters").max(12,"The password must have max 12 characters")});return(0,x.jsx)(x.Fragment,{children:(0,x.jsx)(a.WG,{initialValues:{email:"",password:""},validationSchema:o,onSubmit:async(o,i)=>{let{resetForm:t}=i;e((0,l.E8)({email:o.email,password:o.password})).error?c.oR.error("Login failed. Please check your credentials.",{autoClose:1200}):(c.oR.success(`You have successfully logged in ${r.name}.`,{autoClose:1200}),t())},children:(0,x.jsxs)(a.lB,{children:[(0,x.jsxs)(n.JK,{children:[(0,x.jsx)(a.Po,{src:t.A,alt:"logo"}),(0,x.jsx)(n.Hl,{children:"Money Guard"})]}),(0,x.jsxs)(n.A0,{children:[(0,x.jsx)(n.Tu,{children:(0,x.jsx)(n.aZ,{})}),(0,x.jsx)(n.aC,{placeholder:"E-mail",name:"email",type:"email"})]}),(0,x.jsx)(n.ng,{children:(0,x.jsx)(p.Kw,{component:"span",name:"email"})}),(0,x.jsxs)(n.A0,{children:[(0,x.jsx)(n.Tu,{children:(0,x.jsx)(n.BG,{})}),(0,x.jsx)(n.aC,{placeholder:"Password",name:"password",type:"password"})]}),(0,x.jsx)(n.ng,{children:(0,x.jsx)(p.Kw,{component:"span",name:"password"})}),(0,x.jsx)(n.Sv,{type:"submit",children:"LOG IN"}),(0,x.jsx)(n.Sv,{isNavLink:!0,to:"/registration",children:"REGISTER"})]})})})};o(5043);const h=()=>(0,x.jsx)(a.mc,{children:(0,x.jsx)(a.MG,{children:(0,x.jsx)(g,{})})})},1833:(e,r,o)=>{e.exports=o.p+"static/media/bg-login-web.747b29205909b74382b4.webp"}}]);
-//# sourceMappingURL=844.a4331cce.chunk.js.map
+`,G=e=>{let{isNavLink:r,customStyles:o,...i}=e;const t=r?z:k;return(0,l.jsx)(t,{...i})}},5204:(e,r,o)=>{o.r(r),o.d(r,{default:()=>h});var i=o(899),t=o(9252),n=o(9917),a=o(9750),p=o(3516),s=o(3003),c=o(5123),l=o(3401),d=o(3775),x=o(579);const g=()=>{const e=(0,s.wA)(),r=(0,s.d4)(d.Vd),o=i.Ik({email:i.Yj().email("Invalid email format").required("Email is required"),password:i.Yj().required("Password is required").min(6,"The password must have min 6 characters").max(12,"The password must have max 12 characters")});return(0,x.jsx)(x.Fragment,{children:(0,x.jsx)(a.WG,{initialValues:{email:"",password:""},validationSchema:o,onSubmit:async(o,i)=>{let{resetForm:t}=i;e((0,c.E8)({email:o.email,password:o.password})).error?l.oR.error("Login failed. Please check your credentials.",{autoClose:1200}):(l.oR.success(`You have successfully logged in ${r.name}.`,{autoClose:1200}),t())},children:(0,x.jsxs)(a.lB,{children:[(0,x.jsxs)(n.JK,{children:[(0,x.jsx)(a.Po,{src:t.A,alt:"logo"}),(0,x.jsx)(n.Hl,{children:"Money Guard"})]}),(0,x.jsxs)(n.A0,{children:[(0,x.jsx)(n.Tu,{children:(0,x.jsx)(n.aZ,{})}),(0,x.jsx)(n.aC,{placeholder:"E-mail",name:"email",type:"email"})]}),(0,x.jsx)(n.ng,{children:(0,x.jsx)(p.Kw,{component:"span",name:"email"})}),(0,x.jsxs)(n.A0,{children:[(0,x.jsx)(n.Tu,{children:(0,x.jsx)(n.BG,{})}),(0,x.jsx)(n.aC,{placeholder:"Password",name:"password",type:"password"})]}),(0,x.jsx)(n.ng,{children:(0,x.jsx)(p.Kw,{component:"span",name:"password"})}),(0,x.jsx)(n.Sv,{type:"submit",children:"LOG IN"}),(0,x.jsx)(n.Sv,{isNavLink:!0,to:"/registration",children:"REGISTER"})]})})})};o(5043);const h=()=>(0,x.jsx)(a.mc,{children:(0,x.jsx)(a.MG,{children:(0,x.jsx)(g,{})})})},1833:(e,r,o)=>{e.exports=o.p+"static/media/bg-login-web.747b29205909b74382b4.webp"}}]);
+//# sourceMappingURL=844.c1d8ad93.chunk.js.map

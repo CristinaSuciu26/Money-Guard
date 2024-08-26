@@ -191,7 +191,7 @@
   border-radius: 8px;
   background-color: ${e=>{let{theme:t}=e;return t.backgrounds.tableHead}};
   box-shadow: ${e=>{let{theme:t}=e;return t.shadows.default}};
-`;const _=n.p+"static/media/sprite.d15afce0e684c6357239e33e493fa827.svg",A=(d.Ay.li`
+`;const _=n.p+"static/media/sprite.d34226730588e01b4b6a1ba69b82af33.svg",A=(d.Ay.li`
   margin: 0 auto;
   min-width: 280px;
   max-width: 360px;
@@ -967,4 +967,4 @@
     padding: 0;
   }
 `,Ye=()=>(0,c.jsx)(We,{children:(0,c.jsx)(Xe,{})})}}]);
-//# sourceMappingURL=785.212168fa.chunk.js.map
+//# sourceMappingURL=785.63a69fe4.chunk.js.map

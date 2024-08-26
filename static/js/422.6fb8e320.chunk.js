@@ -1,12 +1,12 @@
-"use strict";(self.webpackChunkreact_team_project=self.webpackChunkreact_team_project||[]).push([[422],{9252:(e,r,o)=>{o.d(r,{A:()=>i});o(5043);const i=o.p+"static/media/logo_money_guard.211e06f6e0b96596c52319d0d5377b8d.svg"},9750:(e,r,o)=>{o.d(r,{mc:()=>c,MG:()=>l,lB:()=>p,WG:()=>s,Po:()=>d});var i=o(3516),t=o(1529),n=o(1833);const a=o.p+"static/media/bg-register-desktop.bcc8fbdd5891f99a5b26.webp",s=(0,t.Ay)(i.l1)`
+"use strict";(self.webpackChunkreact_team_project=self.webpackChunkreact_team_project||[]).push([[422],{9252:(e,r,o)=>{o.d(r,{A:()=>i});o(5043);const i=o.p+"static/media/logo_money_guard.fce5decc9b22ef0ca025e9630273e85c.svg"},9750:(e,r,o)=>{o.d(r,{mc:()=>l,MG:()=>d,lB:()=>p,WG:()=>s,Po:()=>c});var i=o(3516),t=o(1529),n=o(1833);const a=o.p+"static/media/bg-register-desktop.bcc8fbdd5891f99a5b26.webp",s=(0,t.Ay)(i.l1)`
   padding: 30px 0 30px 0;
 `,p=(0,t.Ay)(i.lV)`
   padding: 100px 20px 100px 20px;
   /* background-color: purple; */
-`,d=t.Ay.img`
+`,c=t.Ay.img`
   width: 36px;
   height: 36px;
-`,l=t.Ay.div`
+`,d=t.Ay.div`
   min-width: 100vw;
   min-height: 100vh;
   flex-shrink: 0;
@@ -25,7 +25,7 @@
     min-width: auto;
     min-height: auto;
   }
-`,c=t.Ay.div`
+`,l=t.Ay.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +117,7 @@
       1px 9px 15px 0px rgba(0, 0, 0, 0.2), 2px 17px 12px -17px #111,
       0px 4px 60px 0px rgba(0, 0, 0, 0.25);
   }
-`},9917:(e,r,o)=>{o.d(r,{A0:()=>u,BG:()=>y,Hl:()=>m,JK:()=>h,Jo:()=>j,Sv:()=>C,Tu:()=>f,VE:()=>c,aC:()=>g,aZ:()=>w,lx:()=>x,ng:()=>v,ny:()=>b});var i=o(1529),t=o(7196),n=o(6720),a=o(423),s=o(3516),p=o(5863),d=o(5475),l=o(579);const c=(0,i.Ay)(s.lV)`
+`},9917:(e,r,o)=>{o.d(r,{A0:()=>u,BG:()=>y,Hl:()=>m,JK:()=>h,Jo:()=>j,Sv:()=>C,Tu:()=>f,VE:()=>l,aC:()=>g,aZ:()=>w,lx:()=>x,ng:()=>v,ny:()=>b});var i=o(1529),t=o(7196),n=o(6720),a=o(423),s=o(3516),p=o(5863),c=o(5475),d=o(579);const l=(0,i.Ay)(s.lV)`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -224,11 +224,11 @@
       color: #3a2f43;
     }
   }
-`,z=(0,i.Ay)(d.k2)`
+`,z=(0,i.Ay)(c.k2)`
   && {
     ${A}
     background-color: #ffffff;
     color: #623f8b;
   }
-`,C=e=>{let{isNavLink:r,customStyles:o,...i}=e;const t=r?z:k;return(0,l.jsx)(t,{...i})}},4226:(e,r,o)=>{o.r(r),o.d(r,{default:()=>h});var i=o(9750),t=o(9917),n=o(9252),a=o(3516),s=o(899),p=o(3003),d=o(3216),l=o(5123),c=o(3401),x=o(579);const g=()=>{const e=(0,p.wA)(),r=(0,d.Zp)(),o=s.Ik({name:s.Yj().required("Name is required"),email:s.Yj().email("Invalid email format").required("Email is required"),password:s.Yj().required("Password is required").min(6,"Must have min 6 characters").max(12,"Must have max 12 characters"),passwordc:s.Yj().oneOf([s.KR("password"),null],"Passwords must match").required("Re-enter the password")});return(0,x.jsx)(x.Fragment,{children:(0,x.jsx)(a.l1,{initialValues:{name:"",email:"",password:"",passwordc:""},validationSchema:o,onSubmit:(o,i)=>{let{resetForm:t}=i;const n=e((0,l.kz)({username:o.name,email:o.email,password:o.password}));n.error?c.oR.error("Register failed. Please check your credentials.",{autoClose:1200}):(c.oR.success(`Welcome ${n.user.username}!`,{autoClose:1200}),t(),r("/dashboard"))},children:e=>{let{isSubmiting:r,values:o}=e;return(0,x.jsxs)(t.VE,{children:[(0,x.jsxs)(t.JK,{children:[(0,x.jsx)(t.lx,{src:n.A,alt:"logo"}),(0,x.jsx)(t.Hl,{children:"Money Guard"})]}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.ny,{})}),(0,x.jsx)(t.aC,{placeholder:"Name",name:"name",type:"text"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"name"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.aZ,{})}),(0,x.jsx)(t.aC,{placeholder:"E-mail",name:"email",type:"email"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"email"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.BG,{})}),(0,x.jsx)(t.aC,{placeholder:"Password",name:"password",type:"password"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"password"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.BG,{})}),(0,x.jsx)(t.aC,{placeholder:"Confirm password",name:"passwordc",type:"password"})]}),(0,x.jsx)(t.Jo,{password:o.password}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"passwordc"})}),(0,x.jsx)(t.Sv,{type:"submit",children:"REGISTER"}),(0,x.jsx)(t.Sv,{isNavLink:!0,to:"/login",children:"LOG IN"})]})}})})};o(5043);const h=()=>(0,x.jsx)(i.mc,{isregister:"true",children:(0,x.jsx)(i.MG,{children:(0,x.jsx)(g,{})})})},1833:(e,r,o)=>{e.exports=o.p+"static/media/bg-login-web.747b29205909b74382b4.webp"}}]);
-//# sourceMappingURL=422.b0eed8cd.chunk.js.map
+`,C=e=>{let{isNavLink:r,customStyles:o,...i}=e;const t=r?z:k;return(0,d.jsx)(t,{...i})}},4226:(e,r,o)=>{o.r(r),o.d(r,{default:()=>h});var i=o(9750),t=o(9917),n=o(9252),a=o(3516),s=o(899),p=o(3003),c=o(3216),d=o(5123),l=o(3401),x=o(579);const g=()=>{const e=(0,p.wA)(),r=(0,c.Zp)(),o=s.Ik({name:s.Yj().required("Name is required"),email:s.Yj().email("Invalid email format").required("Email is required"),password:s.Yj().required("Password is required").min(6,"Must have min 6 characters").max(12,"Must have max 12 characters"),passwordc:s.Yj().oneOf([s.KR("password"),null],"Passwords must match").required("Re-enter the password")});return(0,x.jsx)(x.Fragment,{children:(0,x.jsx)(a.l1,{initialValues:{name:"",email:"",password:"",passwordc:""},validationSchema:o,onSubmit:(o,i)=>{let{resetForm:t}=i;const n=e((0,d.kz)({username:o.name,email:o.email,password:o.password}));n.error?l.oR.error("Register failed. Please check your credentials.",{autoClose:1200}):(l.oR.success(`Welcome ${n.user.username}!`,{autoClose:1200}),t(),r("/dashboard"))},children:e=>{let{isSubmiting:r,values:o}=e;return(0,x.jsxs)(t.VE,{children:[(0,x.jsxs)(t.JK,{children:[(0,x.jsx)(t.lx,{src:n.A,alt:"logo"}),(0,x.jsx)(t.Hl,{children:"Money Guard"})]}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.ny,{})}),(0,x.jsx)(t.aC,{placeholder:"Name",name:"name",type:"text"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"name"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.aZ,{})}),(0,x.jsx)(t.aC,{placeholder:"E-mail",name:"email",type:"email"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"email"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.BG,{})}),(0,x.jsx)(t.aC,{placeholder:"Password",name:"password",type:"password"})]}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"password"})}),(0,x.jsxs)(t.A0,{children:[(0,x.jsx)(t.Tu,{children:(0,x.jsx)(t.BG,{})}),(0,x.jsx)(t.aC,{placeholder:"Confirm password",name:"passwordc",type:"password"})]}),(0,x.jsx)(t.Jo,{password:o.password}),(0,x.jsx)(t.ng,{children:(0,x.jsx)(a.Kw,{component:"span",name:"passwordc"})}),(0,x.jsx)(t.Sv,{type:"submit",children:"REGISTER"}),(0,x.jsx)(t.Sv,{isNavLink:!0,to:"/login",children:"LOG IN"})]})}})})};o(5043);const h=()=>(0,x.jsx)(i.mc,{isregister:"true",children:(0,x.jsx)(i.MG,{children:(0,x.jsx)(g,{})})})},1833:(e,r,o)=>{e.exports=o.p+"static/media/bg-login-web.747b29205909b74382b4.webp"}}]);
+//# sourceMappingURL=422.6fb8e320.chunk.js.map
